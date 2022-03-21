@@ -1,24 +1,20 @@
 import "./App.css";
 import Header from "./Header";
-import Newsfeed from "./Newsfeed";
+import NewsFeed from "./Newsfeed";
 import Stats from "./Stats";
 
 function App() {
   return (
-    <div className="App">
-      {/* Header */}
+    <div className="app">
       <div className="app__header">
         <Header />
       </div>
-
       <div className="app__body">
-        <div className="app_container">
-          <Newsfeed />
-          {/* stats */}
+        <div className="app__container">
+          <NewsFeed />
           <Stats />
         </div>
       </div>
-      {/* Body */}
     </div>
   );
 }
